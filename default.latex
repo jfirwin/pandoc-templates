@@ -227,6 +227,9 @@ $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 $endif$
 \usepackage{xcolor}
+$if(custom-color)$
+\definecolor{custom-color}{RGB}{$custom-color$}
+$endif$
 $if(geometry)$
 $if(beamer)$
 \geometry{$for(geometry)$$geometry$$sep$,$endfor$}
