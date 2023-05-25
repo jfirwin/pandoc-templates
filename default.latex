@@ -479,6 +479,7 @@ $if(logo)$
 \logo{\includegraphics{$logo$}}
 $endif$
 $endif$
+\pagenumbering{roman}
 
 \begin{document}
 $if(has-frontmatter)$
