@@ -492,7 +492,8 @@ $else$
 $if(custom-titlepage)$
 % custom titlepage logic
 $else$
-\maketitle
+% \maketitle
+${titlepage()}
 $endif$
 $endif$
 $if(abstract)$
