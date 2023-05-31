@@ -489,8 +489,11 @@ $if(title)$
 $if(beamer)$
 \frame{\titlepage}
 $else$
-% don't make default title
-% \maketitle
+$if(custom-titlepage)$
+% custom titlepage logic
+$else$
+\maketitle
+$endif$
 $endif$
 $if(abstract)$
 \begin{abstract}
