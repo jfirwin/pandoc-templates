@@ -491,9 +491,9 @@ $if(beamer)$
 $else$
 $if(custom-titlepage)$
 % custom titlepage logic
+${titlepage()}
 $else$
 % \maketitle
-${titlepage()}
 $endif$
 $endif$
 $if(abstract)$
