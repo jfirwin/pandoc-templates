@@ -489,7 +489,8 @@ $if(title)$
 $if(beamer)$
 \frame{\titlepage}
 $else$
-\maketitle
+% don't make default title
+% \maketitle
 $endif$
 $if(abstract)$
 \begin{abstract}
